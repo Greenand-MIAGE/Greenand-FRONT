@@ -22,7 +22,7 @@ export interface PersonProps {
 }
 
 
-function BioForm() {
+function BioForm({name, birthDate, address, phone_number, mail, description, password, qualification} : PersonProps) {
     return (
         <div>
             
