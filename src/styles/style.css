@@ -1,0 +1,255 @@
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+.header{
+    border-bottom: solid 3px green;
+    border-radius: 10px;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    height : 85px;
+
+}
+
+.navbar-header {
+    color: black;
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+#connex{
+    float: right;
+    font-family: Helvetica,sans-serif;
+    
+}
+
+h1{
+    color: black;
+    font-family: Helvetica,sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+ 
+}
+
+.carousel-inner{
+  height: 400px; 
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 10px;
+  border-color: green;
+  margin-bottom: 8%;
+    
+}
+
+h2{
+    color:white;
+    font-family:Helvetica,sans-serif;
+    float: left;
+    margin-bottom: 20%;
+}
+
+.modal {
+    overflow-y:auto;
+  }
+
+.btn{
+    margin-left:20px;
+}
+
+#inscrip {
+    margin-top:0px;
+}
+.form-check{
+  margin-left: 20px;
+}
+
+/* Chiffres-clés*/
+text {
+    margin-top: 60%;
+
+}
+h3{
+  font-family:Helvetica,sans-serif;
+   
+}
+
+h4{
+    font-family:Helvetica,sans-serif;
+    margin-right: 50%;
+}
+
+p {
+    font-family:Helvetica,sans-serif;
+   
+}
+
+.bloc-icon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 26%;
+}
+
+.text-primary {
+    color:green!important;
+}
+.my-3 {
+    text-align: center;
+}
+
+/*PROPOSITION ACTIVITES*/
+
+.service {
+    width: 100%;
+    height: 320px;
+    margin: 80px 0;
+    text-align: center;
+    border: 1px solid #ddd;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+  
+.service .icon-holder {
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    margin-bottom: 40px;
+    padding: 10px;
+    background: white;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  .service .heading {
+    position: relative;
+    top: 80px;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .service .icon-holder > img.icon {
+    width: 40px;
+  }
+  
+  .service:hover {
+    border-color: green;
+  }
+  
+  .service:hover .icon-holder {
+    top: -30px;
+  }
+  
+  .service:hover .heading {
+    top: -30px;
+  }
+  
+  .service .description {
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .service:hover .description {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  /*Footer*/
+
+    footer{
+    border-top: solid 3px green;
+    border-radius: 10px;
+ 
+  } 
+    #liens{
+      display: flex;
+      flex-direction: row;
+      margin-left:20;
+      margin-right: 20px;
+      margin-top: 10px;
+    
+    }
+
+  #liens > a {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    
+  #but_witht_brd {
+    border : none;
+    background-color: white;
+    color : green;
+  }
+
+  .greenand_logo {
+    margin-left: 3%;
+    width: 5%;
+    margin-top : -10%;
+
+  }
+
+  .card_ens {
+    width: 80%;
+    height: 50%;
+    margin-left : 10%;
+
+    flex-shrink: 0;
+  
+   
+    
+    box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
+
+    border-radius: 0px 80px 0px 80px;
+    
+  }
+  .card_typo {
+    text-align: justify;
+    margin-bottom: 10%;
+  }
+  #card_logo {
+    width: 90%;
+    margin-top : 0%;
+  }
+  .title_card{
+    margin-top: 8%;
+    color : rgba(0, 128, 0, 0.774);
+  }
+  .p3_card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 80px 0px 80px 0px;
+    box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
+  }
+ #p2_img{
+  border-radius: 80px 0px 0px 0px;
+ }
+ .p4_card{
+  width: 100%;
+  height: 20%;
+  
+  box-shadow: 0 0 3px 3px rgba(11, 104, 11, 0.5);
+
+  border-radius: 0px 120px 0px 120px;
+ }
+#p4_img{
+  margin-bottom:2%;
+  width: 80%;
+  border-radius: 0px 80px 0px 0px;
+}
