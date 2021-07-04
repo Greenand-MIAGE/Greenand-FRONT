@@ -1,14 +1,17 @@
+import CookieConsent from "react-cookie-consent";
 
 function ManageCookies() {
 return (
-<div className="alert text-center cookiealert" role="alert">
-    <b>Tu aimes les cookies ?</b> &#x1F36A; Nous utilisons les cookies afin de vous garantir une meilleure expériences dans notre site ! Greenand, toujours auprès de vos besoins. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
 
-    <button type="button" className="btn btn-primary btn-sm acceptcookies">
-        J'accepte avec plaisir
-    </button>
-</div>
-);
-};
+<CookieConsent
+  location="bottom"
+  buttonText="OK"
+  cookieName="myAwesomeCookieName2"
+  style={{ background: "#4D9940" }}
+  buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+  expires={150}
+> Parlons un peu cookies ! Nous utilisons des cookies et d’autres données et technologies pour analyser, améliorer et personnaliser votre expérience sur et en dehors de Greenand. Cliquez sur « OK » pour accepter et continuer à utiliser Greenand. Vous pouvez gérer vos données dans vos paramètres de cookies.
+</CookieConsent>
+)}
 
 export default ManageCookies;

@@ -2,8 +2,8 @@ import React from "react";
 import Header from './Header'
 import Footer from './Footer'
 import Carousel from './Carousel'
-import Chiffrescles from "./Chiffrescles";
 import PropositionActivites from "./PropositionActivites";
+import PresentationGRN from "./PresentationGRN";
 import ManageCookies from "./ManageCookies";
 
 
@@ -15,9 +15,9 @@ function Accueil() {
             
       <Header />
       <Carousel />
-      <Chiffrescles />
+      <PresentationGRN />
       <PropositionActivites/>
-      <ManageCookies />     
+      <ManageCookies />        
       <Footer/>
   
     </div>

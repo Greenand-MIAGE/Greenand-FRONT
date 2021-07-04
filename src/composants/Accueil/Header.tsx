@@ -1,30 +1,30 @@
 import '../App.tsx'
-import React  from 'react';
-import'../../styles/style.css'
+import React from 'react';
+import '../../styles/style.css'
+import logo from '../../assets/logoVers2.png'
 import PopupConnexion from './PopupConnexion';
-function Header () {
+function Header() {
 
 
-    return(
-        <div className="col-lg-12 col-md-12 col-sm-12">
-           <div className="header">
-            
-               
-             <nav className="navbar navbar-default">
+    return (
+        <div className="header">
+            <nav className="navbar navbar-default">
                 <div className="container">
                     <div className="navbar-header">
-                           <h1> Greenand</h1>
-                               
-                    </div>    
-                           <p className="navbar-text navbar-right">                          
-                           {<PopupConnexion />}
-                           </p>
-              </div>
-          </nav>
-          </div>
+                        <div className="title_card">
+                            <h3>Greenand</h3>
+                        </div>
+                    </div>
+                    <p className="navbar-text navbar-right">
+                        {<PopupConnexion />}
+                    </p>
+                </div>
+            </nav>
+            <img src={logo} alt="logo" className="greenand_logo"></img>
         </div>
+
 
     );
 }
 
-export default Header 
+export default Header
