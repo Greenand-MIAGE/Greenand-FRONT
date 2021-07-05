@@ -14,7 +14,7 @@ function Header() {
                         <button className="navbar-brand mt-2 mt-lg-0" type="button" id="but_witht_brd">
                             <img
                                 src={logo}
-                                height="15"
+                                height="63"
                                 alt=""
                                 loading="lazy"
                             />
@@ -28,7 +28,7 @@ function Header() {
                     </p>
                 </div>
             </nav>
-            <img src={logo} alt="logo" className="greenand_logo"></img>
+           
         </div>
 
 
