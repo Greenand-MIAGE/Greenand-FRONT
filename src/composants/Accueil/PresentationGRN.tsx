@@ -3,10 +3,12 @@ import '../../styles/style.css'
 import logo from '../../assets/logoVers2.png'
 import p2_img from '../../assets/p2_img.webp'
 import p4_img from '../../assets/p4_img.webp'
+import PropositionActivites from './PropositionActivites'
+import Chiffrescles from './Chiffrescles'
 
 function PresentationGRN() {
     return (
-        <div>
+        <div className="container-fluid">
             <div className="card_ens">
                  <div className="card mb-3">
                     <div className="row g-0">
@@ -38,6 +40,7 @@ function PresentationGRN() {
                     </div>
                 </div>
             </div>
+            {<Chiffrescles/>}
             <div className="container-fluid">
                 <div className="row">
                     <div className=" col-lg-1 col-md-1 col-sm-1">
@@ -71,11 +74,12 @@ function PresentationGRN() {
                     </div>
                 </div>
             </div>
+            {<PropositionActivites />}
             <div className="container-fluid">
                 <div className="row">
                     <div className=" col-lg-1 col-md-1 col-sm-1">
                     </div>
-                    <div className=" col-lg-10 col-md-10 col-sm-10">
+                    <div className=" col-lg-10 col-md-10 col-sm-10" id="valo">
                         <div className="text-center">
                             <div className="title_card">
                                 <h3>Revalorisation d’un métier</h3>

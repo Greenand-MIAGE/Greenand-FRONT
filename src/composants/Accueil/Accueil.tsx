@@ -3,6 +3,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Carousel from './Carousel'
 import PresentationGRN from "./PresentationGRN";
+import PropositionActivites from "./PropositionActivites";
 import ManageCookies from "./ManageCookies";
 
 

@@ -1,3 +1,5 @@
+/*Carousel et Header*/
+
 body {
   background-color: white;
   overflow-x: hidden;
@@ -45,10 +47,11 @@ body{
 .carousel-inner{
   height: 400px; 
   margin: auto;
-  margin-top: 2rem;
-  border-radius: 10px;
+  margin-top: 1rem;
+  border-radius: 40px 0px 40px 0px;
   border-color: green;
-  margin-bottom: 8%;
+  margin-bottom: 4%;
+  box-shadow: 0 0 3px 3px rgba(11, 104, 11, 0.5);
     
 }
 
@@ -67,38 +70,43 @@ h2{
     margin-left:20px;
 }
 
-#inscrip {
-    margin-top:0px;
-}
+
 .form-check{
   margin-left: 20px;
 }
 
 /* Chiffres-clés*/
+#chiffres{
+  background-color: rgb(255, 255, 255);
+
+}
 text {
     margin-top: 60%;
-
 }
+
 h3{
-  font-family:Helvetica,sans-serif;
+    font-family:Helvetica,sans-serif;
    
 }
-
+#idf{
+  font-family:Helvetica,sans-serif;
+    margin:auto;
+}
 h4{
-    font-family:Helvetica,sans-serif;
+  font-family:Helvetica,sans-serif;
     margin-right: 50%;
 }
 
-p {
+.text-muted{
     font-family:Helvetica,sans-serif;
-   
+    margin-right: 8%; 
 }
 
 .bloc-icon{
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
-    margin-left: 26%;
+    margin-top: 3%;
+    margin-left: 25%;
 }
 
 .text-primary {
@@ -107,149 +115,147 @@ p {
 .my-3 {
     text-align: center;
 }
+/*DescritpionGRD*/
+    
+#but_witht_brd {
+  border : none;
+  background-color: white;
+  color : green;
+}
+
+.greenand_logo {
+  margin-left: 3%;
+  width: 5%;
+  margin-top : -10%;
+
+}
+
+.card_ens {
+  width: 80%;
+  height: 50%;
+  margin-left : 10%;
+  flex-shrink: 0;
+  box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
+  border-radius: 0px 80px 0px 80px;
+  
+}
+.card_typo {
+  text-align: justify;
+  margin-bottom: 5%;
+}
+#card_logo {
+  width: 90%;
+  margin-top : 0%;
+}
+.title_card{
+  margin-top: 2%;
+  color : rgba(0, 128, 0, 0.774);
+}
+.p3_card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 80px 0px 80px 0px;
+  box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
+}
+#p2_img{
+border-radius: 80px 0px 0px 0px;
+}
+
+.p4_card{
+width: 100%;
+height: 20%;
+box-shadow: 0 0 3px 3px rgba(11, 104, 11, 0.5);
+border-radius: 0px 120px 0px 120px;
+}
+
+#p4_img{
+margin-bottom:2%;
+width: 80%;
+border-radius: 0px 80px 0px 0px;
+}
 
 /*PROPOSITION ACTIVITES*/
-
-.service {
-    width: 100%;
-    height: 320px;
-    margin: 80px 0;
-    text-align: center;
-    border: 1px solid #ddd;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-  
-.service .icon-holder {
-    position: relative;
-    top: 100px;
-    display: inline-block;
-    margin-bottom: 40px;
-    padding: 10px;
-    background: white;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-
-  .service .heading {
-    position: relative;
-    top: 80px;
-    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .service .icon-holder > img.icon {
-    width: 40px;
-  }
-  
-  .service:hover {
-    border-color: green;
-  }
-  
-  .service:hover .icon-holder {
-    top: -30px;
-  }
-  
-  .service:hover .heading {
-    top: -30px;
-  }
-  
-  .service .description {
-    width: 80%;
-    margin: 0 auto;
-    opacity: 0;
-    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-  }
-  
-  .service:hover .description {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-
-  /*Footer*/
-
-    footer{
-    border-top: solid 3px green;
-    border-radius: 10px;
+#cards{
+   width:100%;
+   height:auto;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
  
-  } 
-    #liens{
-      display: flex;
-      flex-direction: row;
-      margin-left:20;
-      margin-right: 20px;
-      margin-top: 10px;
-    
-    }
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#card1{
+  width: 26rem;
+  height: 31rem;
+  margin-left:15%;
+  background-color: rgb(255, 255, 255);
+  border-color:green;
+  border-radius: 0px 80px 0px 0px;
+ 
+}
 
-  #liens > a {
-      margin-left: 25px;
-      margin-right: 25px;
-    }
-    
-  #but_witht_brd {
-    border : none;
-    background-color: white;
-    color : green;
-  }
+#card2{
+  width: 26rem;
+  height: 31rem;
+  background-color: rgb(255, 255, 255);
+  border-color:green;
+  border-radius: 80px 0px 80px 0px;
+  margin-left: 7%;
+ 
 
-  .greenand_logo {
-    margin-left: 3%;
-    width: 5%;
-    margin-top : -10%;
+}
 
-  }
-
-  .card_ens {
-    width: 80%;
-    height: 50%;
-    margin-left : 10%;
-
-    flex-shrink: 0;
-  
-   
-    
-    box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
-
-    border-radius: 0px 80px 0px 80px;
-    
-  }
-  .card_typo {
-    text-align: justify;
-    margin-bottom: 10%;
-  }
-  #card_logo {
-    width: 90%;
-    margin-top : 0%;
-  }
-  .title_card{
-    margin-top: 8%;
-    color : rgba(0, 128, 0, 0.774);
-  }
-  .p3_card {
-    background-color: rgb(255, 255, 255);
-    border-radius: 80px 0px 80px 0px;
-    box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
-  }
- #p2_img{
+#card1 > img{
+  margin-top:2% ;
   border-radius: 80px 0px 0px 0px;
- }
- .p4_card{
-  width: 100%;
-  height: 20%;
-  
-  box-shadow: 0 0 3px 3px rgba(11, 104, 11, 0.5);
-
-  border-radius: 0px 120px 0px 120px;
- }
-#p4_img{
-  margin-bottom:2%;
-  width: 80%;
+  box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
   border-radius: 0px 80px 0px 0px;
 }
+#card2 > img{
+  margin-top: 2%;
+  border-radius: 0px 0px 80px 0px;
+  box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
+  border-radius: 0px 80px 0px 0px;
+} 
+
+.card-title{
+  color : rgba(0, 128, 0, 0.774);
+}
+  /*Footer*/
+
+  footer{
+    background-color: green;
+    opacity:0.7; 
+    border-radius: 40px 0px 0px 40px;
+  } 
+
+  #liens{
+    display: flex;
+    flex-direction: row;
+    margin-left:25px;
+    margin-right: 25px;
+  }
+  
+  #liens > a {
+    margin-top: 2%;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
+    color:  whitesmoke;
+    font-family: Helvetica,sans-serif;
+    }
+  #reseaux{
+    margin-left:43%;
+    margin-right: 30%;
+    color: whitesmoke;
+    }
+   
+  #copy{
+    background-color: whitesmoke;
+    font-family: Helvetica,sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+    }
+
+  
+      

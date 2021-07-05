@@ -10,9 +10,6 @@ import lgm from '../../assets/legumes.jpg'
 function Carousel() {
   return (
     <div className="container-fluid">
-      <br></br>
-
-
       <div className="row">
         <div className=" col-lg-12 col-md-12 col-sm-12">
           <div id="carouselExemple" className="carousel slide" data-ride="carousel" date-interval="3000" >

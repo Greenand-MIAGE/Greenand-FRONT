@@ -1,38 +1,41 @@
 
-import './Accueil.tsx'
-import'../../styles/style.css'
-import  ptg from '../../assets/potager.jpg'
-import  app from '../../assets/apprentissage.jpg'
+    import './Accueil.tsx'
+    import'../../styles/style.css'
+    import  actv from '../../assets/activite.jpg'
+    import  prtg from '../../assets/partage.jpg'
 
-function PropositionActivites() {
-    return (
-        <section id="services" className="section section-padded">
-          <div className="container">
-          <div className="row services">
-
-            <div className="col-lg-6 col-md-6 col-sm-6">
-              <div className="service">
-                <div className="icon-holder">
-                  <img src={app} alt="img 1" className="icon"/>
+    function PropositionActivites() {
+        return  (
+        <div className="container-fluid-inline" id="cards">
+          <div className="card" id="card1" >
+            <img className="card-img-top" src={actv} alt="..."/>
+                <div className="card-body">
+                  <h5 className="card-title">Ce que je peux faire sur Greeanand</h5>
+                    <p className="card-text">  
+                      Louer votre terrain à des particuliers,
+                      partager des moments d'échanges avec des passionnés de jardinage,
+                      enseigner votre savoir-faire et vos astuces aux amateurs ainsi que 
+                      proposer différentes activitées (Jardinage, Apiculture,...etc.). 
+                      Cela vous intéresse? Rejoignez vite notre communauté!
+                    </p>
                 </div>
-                <h4 className="heading">PROPOSER UNE ACTIVITE</h4>
-                <p className="description">Ce qu'il faut faire yeaaa.</p>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="service">
-                <div className="icon-holder">
-                  <img src={ptg} alt="img 2" className="icon"/>
+          </div>
+          <div className="card" id="card2" >
+              <img className="card-img-top" src={prtg} alt="..."/>
+                <div className="card-body">
+                  <h5 className="card-title">Ce que je peux proposer sur Greenand</h5>
+                    <p className="card-text">
+                      Réserver un créneau sur le terrain ou le jardin de votre choix,
+                      apprendre auprés de personnes expérimentées,
+                      participer à des expériences uniques et différentes activités, et
+                      être au plus proche de la terre.
+                      Amateur de jardinage? Ta place est parmi nous! 
+                    </p>
                 </div>
-                <h4 className="heading">CHOISIR UNE ACTIVITE</h4>
-                <p className="description">Ce qu'il faut faire youhouu.</p>
-              </div>
-            </div>
-
           </div>
-          </div>
-        </section>
-      );
-}
+        </div>
+        )
+      ;
+      }
 
-export default PropositionActivites;
+    export default PropositionActivites;
