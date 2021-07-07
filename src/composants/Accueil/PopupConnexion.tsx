@@ -2,8 +2,8 @@ import '../../styles/header.css'
 
 function PopupConnexion() {
   return (
-    <div>
-      <div className="container-fluid">
+    <div className="modalLogin">
+      <div className="container-fluid ">
         <div>
           <button
             className="btn btn-outline-light"
@@ -23,6 +23,7 @@ function PopupConnexion() {
           id="modal1"
           role="dialog"
           aria-labelledby="exampleModalCenterTitle"
+          tabIndex={-1} 
           aria-hidden="true">
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">

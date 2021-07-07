@@ -3,7 +3,7 @@ import logo from '../../assets/logoVers2.png';
 
 function loginPopup() {
     return (
-        <div>
+        <div className="">
 
 
             <div>

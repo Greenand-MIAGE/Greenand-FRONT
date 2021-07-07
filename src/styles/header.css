@@ -1,5 +1,8 @@
-/* Carousel et Menu header */
+.header {
+  z-index: 10;
+}
 
+/* Carousel et Menu header */
 .menu {
   margin          : 0;
   padding         : 0;
@@ -94,5 +97,13 @@
 }
 
 .fade h5 {
+  color: grey;
+}
+
+.modal-backdrop {
+  z-index: 0;
+}
+
+.form-check-label {
   color: grey;
 }
