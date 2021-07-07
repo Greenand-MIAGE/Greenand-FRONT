@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Greenand-FRONT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## But du projet
 
-In the project directory, you can run:
+Le projet a pour but la création d’une plateforme de partage de terrains et d'apprentissage d'une passion, autour de l’agriculture privée.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Equipe & rôles
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Notre équipe est composée de :
+1. **GHISOTTI Tiziano** - _Lead développeur | équipe back_
+1. **IDJA Yasmina** - _Développeuse & communication | équipe front & communication_
+1. **MAHOLIDA Christelle** - _Développeuse & pôle juridique | équipe front & communication_
+1. **MARECAR Sarah** - _Lead développeuse | équipe front_
+1. **PIOTROWSKI Martin** - _Stratégie marketing & communication | équipe communication_
+1. **RAKOTONIRINA Onitiana** - _Développeur full stack | équipe back & front_
+1. **TALON Gerryl** - _Développeur | équipe back_
+1. **TANG François** - _Gestion de projet | équipe communication_
+1. **YANES Abdellah** - _Coordinateur | équipe communication_
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Avancement du projet/Gestion de projet
 
-### `npm run build`
+Utilisation du [Kanban de Github](https://github.com/orgs/Greenand-MIAGE/projects/2) se trouvant dans notre projet d'organisation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+L'ensemble de la documentation :
+* 0 - DOCUMENTATION POUR INSTALER LE PROJET
+* 1 - DEFINITION DU PROJET
+* 2 - USER STORY - SCENARIO GLOBAL
+* 3 - JURIDIQUE - RGPD
+* 3.5 - CONTRAT DE CESSION DES DROITS D'AUTEUR (PDF)
+* 4 - ETUDE DE MARCHE ET BUSINESS MODEL
+* 5 - PLAN ET ETUDE DE COMMUNICATION
+* 6 - CHARTE GRAPHIQUE GREENAND
 
-### `npm run eject`
+se trouve dans le dossier "_Documentation_" de l'arborescence "**Greenand-API**" et de la branche par défault "**dev**".  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Communication au sein de notre équipe
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Utilisation du [serveur Discord PRAG](https://discord.gg/HCxycaEvUv).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+_Note : ce lien permet de rejoindre notre serveur_.
