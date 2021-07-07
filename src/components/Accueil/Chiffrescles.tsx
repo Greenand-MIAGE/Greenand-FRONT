@@ -1,6 +1,4 @@
-import React from 'react'
-import '../../styles/style.css'
-import logo from '../../assets/madame.jpg'
+import '../../styles/style_Accueil.css'
 import adherent from '../../assets/adherents.jpg'
 import field from '../../assets/field.jpg'
 
@@ -8,7 +6,6 @@ import field from '../../assets/field.jpg'
 function Chiffrescles() {
     return (
         <div className="container-fluid chiffre">
-
             <div className="row">
                 <div className=" col-lg-12 col-md-12 col-sm-12" id="chiffres">
                     <div className="text-center">
@@ -30,7 +27,7 @@ function Chiffrescles() {
                             <a className="info" href="#!">9</a>
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 img1">
@@ -52,10 +49,7 @@ function Chiffrescles() {
                         </div>
                     </div>
                 </div>
-
             </div>
-
-
         </div >
     )
 }

@@ -165,19 +165,19 @@ h4 {
 }
 
 .mask {
-  margin       : 0;
-  padding      : 0;
-  background   : rgba(0, 0, 0, 0.35);
-  border-radius: 25px;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius   : 25px;
 }
 
-.mask h2 {
-  color    : white;
+.mask h2{
+  color: white;
   font-size: 50px;
 }
 
-.mask p {
-  color    : white;
+.mask p{
+  color: white;
   font-size: 20px;
 }
 
@@ -329,8 +329,15 @@ footer {
 }
 
 .footerGreenand {
-  margin-right : 0;
-  margin-left  : 0;
+  margin-right: 0;
+  margin-left: 0;
   padding-right: 0;
-  padding-left : 0;
+  padding-left: 0;
+}
+
+/*Reservation*/
+#cardReservation{
+  width: 45rem;
+  height: 40em;
+  margin: auto !important;
 }

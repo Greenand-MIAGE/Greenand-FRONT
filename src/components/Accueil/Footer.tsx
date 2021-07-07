@@ -1,16 +1,12 @@
-import '../../styles/style.css'
+import '../../styles/style_Accueil.css'
 
 function Footer() {
   return (
-    <div className="">
-
+    <div>
       <div className="container-fluid footerGreenand" >
         <footer className="text-center text-white " >
-
           <div className="container pt-4">
-
             <section className="mb-4 textLien">
-
               <a
                 className="btn btn-link btn-floating btn-lg text-dark m-1"
                 href="#!"
@@ -19,7 +15,6 @@ function Footer() {
               >
                 Mentions légales
               </a>
-
 
               <a
                 className="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -30,7 +25,6 @@ function Footer() {
                 Gestion des données personnelles et Cookies
               </a>
 
-
               <a
                 className="btn btn-link btn-floating btn-lg text-dark m-1"
                 href="#!"
@@ -39,7 +33,6 @@ function Footer() {
               >
                 Conditions générales d'utilisation
               </a>
-
 
               <a
                 className="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -50,8 +43,6 @@ function Footer() {
                 Conditions générales de vente
               </a>
 
-
-
               <a
                 className="btn btn-link btn-floating btn-lg text-dark m-1"
                 href="#!"
@@ -60,13 +51,9 @@ function Footer() {
               >
                 Nous contacter
               </a>
-
-
             </section>
 
-
             <section className="mb-4">
-
               <a
                 className="btn btn-link btn-floating btn-lg text-dark m-1"
                 href="#!"
@@ -74,7 +61,6 @@ function Footer() {
                 data-mdb-ripple-color="dark"
               ><i className="fab fa-facebook-f"></i
               ></a>
-
 
               <a
                 className="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -84,7 +70,6 @@ function Footer() {
               ><i className="fab fa-twitter"></i
               ></a>
 
-
               <a
                 className="btn btn-link btn-floating btn-lg text-dark m-1"
                 href="#!"
@@ -93,7 +78,6 @@ function Footer() {
               ><i className="fab fa-google"></i
               ></a>
 
-
               <a
                 className="btn btn-link btn-floating btn-lg text-dark m-1"
                 href="#!"
@@ -101,8 +85,6 @@ function Footer() {
                 data-mdb-ripple-color="dark"
               ><i className="fab fa-instagram"></i
               ></a>
-
-
 
               <a
                 className="btn btn-link btn-floating btn-lg text-dark m-1"

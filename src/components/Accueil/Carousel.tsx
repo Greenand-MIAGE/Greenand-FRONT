@@ -1,73 +1,14 @@
-import '../App.tsx'
-import '../../styles/header.css'
-import madame from '../../assets/madame.jpg'
-import Carousel1 from '../../assets/Carousel1.jpg'
-import Carousel2 from '../../assets/Carousel2.jpg'
-import Carousel3 from '../../assets/Carousel3.jpg'
-import Carousel4 from '../../assets/Carousel4.jpg'
-import Carousel5 from '../../assets/Carousel5.jpg'
-
+import '../App.tsx';
+import '../../styles/style_Header.css';
+import madame from '../../assets/madame.jpg';
+import Carousel1 from '../../assets/Carousel1.jpg';
+import Carousel2 from '../../assets/Carousel2.jpg';
+import Carousel3 from '../../assets/Carousel3.jpg';
+import Carousel4 from '../../assets/Carousel4.jpg';
+import Carousel5 from '../../assets/Carousel5.jpg';
 
 function Carousel() {
   return (
-    /*
-    <div className="container-fluid">
-      <div className="row">
-        <div className=" col-lg-12 col-md-12 col-sm-12">
-          <div id="carouselExemple" className="carousel slide" data-ride="carousel" date-interval="3000" >
-            <ol className="carousel-indicators" >
-              <li data-targer="#carouselExemple" data-slide-to="0" className="active"></li>
-              <li data-targer="#carouselExemple" data-slide-to="1" ></li>
-              <li data-targer="#carouselExemple" data-slide-to="2" ></li>
-              <li data-targer="#carouselExemple" data-slide-to="3" > </li>
-              <li data-targer="#carouselExemple" data-slide-to="4" ></li>
-            </ol>
-
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img className="d-block w-100" src={ptg} alt="ptg" />
-                <div className="carousel-caption d-none d-md-block">
-                  <h2>Titre de la légende</h2>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img className="d-block w-100" src={otl} alt="otl" />
-                <div className="carousel-caption d-none d-md-block">
-                  <h2>Titre de la légende</h2>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img className="d-block w-100" src={app} alt="app" />
-                <div className="carousel-caption d-none d-md-block ">
-                  <h2>Titre de la légende</h2>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img className="d-block w-100 " src={apc} alt="apc" />
-                <div className="carousel-caption d-none d-md-block">
-                  <h2>Titre de la légende</h2>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img className="d-block w-100 " src={lgm} alt="lgm" />
-                <div className="carousel-caption d-none d-md-block">
-                  <h2>Titre de la légende</h2>
-                </div>
-              </div>
-            </div>
-            <a href="#carouselExemple" className="carousel-control-prev" role="button" data-slide="prev">
-
-              <span className="sr-only">Previous</span>
-            </a>
-            <a href="#carouselExemple" className="carousel-control-next" role="button" data-slide="next">
-
-              <span className="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    */
     <div className="carousel">
       <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
@@ -91,7 +32,7 @@ function Carousel() {
           </div>
 
           <div className="carousel-item">
-          <img className="d-block w-100" src={Carousel1} alt="crl1" />
+            <img className="d-block w-100" src={Carousel1} alt="crl1" />
             <div className="carousel-caption d-none d-md-block">
               <h5>
                 Banner Text two</h5>
@@ -101,7 +42,7 @@ function Carousel() {
           </div>
 
           <div className="carousel-item">
-          <img className="d-block w-100" src={Carousel2} alt="crl2" />
+            <img className="d-block w-100" src={Carousel2} alt="crl2" />
             <div className="carousel-caption d-none d-md-block">
               <h5>
                 Banner Text three</h5>
@@ -111,7 +52,7 @@ function Carousel() {
           </div>
 
           <div className="carousel-item">
-          <img className="d-block w-100" src={Carousel3} alt="crl3" />
+            <img className="d-block w-100" src={Carousel3} alt="crl3" />
             <div className="carousel-caption d-none d-md-block">
               <h5>
                 Banner Text three</h5>
@@ -121,7 +62,7 @@ function Carousel() {
           </div>
 
           <div className="carousel-item">
-          <img className="d-block w-100" src={Carousel4} alt="crl4" />
+            <img className="d-block w-100" src={Carousel4} alt="crl4" />
             <div className="carousel-caption d-none d-md-block">
               <h5>
                 Banner Text three</h5>
@@ -131,7 +72,7 @@ function Carousel() {
           </div>
 
           <div className="carousel-item">
-          <img className="d-block w-100" src={Carousel5} alt="crl5" />
+            <img className="d-block w-100" src={Carousel5} alt="crl5" />
             <div className="carousel-caption d-none d-md-block">
               <h5>
                 Banner Text three</h5>
@@ -152,7 +93,7 @@ function Carousel() {
         </a>
       </div>
     </div>
-
   )
 }
-export default Carousel
+
+export default Carousel;

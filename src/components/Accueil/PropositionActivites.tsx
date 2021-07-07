@@ -1,6 +1,6 @@
 
 import './Accueil.tsx'
-import '../../styles/style.css'
+import '../../styles/style_Accueil.css'
 import actv from '../../assets/activite.jpg'
 import prtg from '../../assets/partage.jpg'
 
@@ -43,10 +43,6 @@ function PropositionActivites() {
         </div>
       </div>
     </div>
-
-
-
-
   )
     ;
 }

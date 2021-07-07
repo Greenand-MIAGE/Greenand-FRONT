@@ -1,35 +1,11 @@
 import '../App.tsx'
-import '../../styles/header.css'
+import '../../styles/style_Header.css'
 import PopupConnexion from './PopupConnexion';
 import logo_text from '../../assets/Logo_texte_white.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
-        /*
-        <div className="header">
-            <nav className="navbar navbar-default">
-                <div className="container">
-                    <div className="navbar-header">
-                        <button className="navbar-brand mt-2 mt-lg-0" type="button" id="but_witht_brd">
-                            <img
-                                src={logo}
-                                height="15"
-                                alt=""
-                                loading="lazy"
-                            />
-                        </button>
-                        <div className="title_card">
-                            <h3>Greenand</h3>
-                        </div>
-                    </div>
-                    <p className="navbar-text navbar-right">
-                        {<PopupConnexion />}
-                    </p>
-                </div>
-            </nav>
-            <img src={logo} alt="logo" className="greenand_logo"></img>
-        </div>
-        */
         <div className="header">
             <nav className="navbar navbar-expand-lg navbar-light fixed-top menu">
                 <div className="container-fluid ">
@@ -43,6 +19,12 @@ function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
+                                <a className="nav-link" >
+                                    <Link className="linktest dropdown-item" to="/accueil">Mon profil</Link>
+                                </a>
+                            </li>
+
+                            <li className="nav-item">
                                 <a className="nav-link" href="#">
                                     {<PopupConnexion />}
                                 </a>
@@ -52,7 +34,6 @@ function Header() {
                 </div>
             </nav>
         </div>
-
     );
 }
 

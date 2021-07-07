@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.card_margin{
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.card_border{
+  border-radius: 150px 0px 0px 0px;
+}
+.bg_style{
+  background-image: url("../assets/p10_img.jpg");
+  height: 600px;
+ }  
+ .mask_style {
+  background-color: rgba(154, 216, 154, 0.548);
+ }
+ .btn-outline-white{
+  background-color: rgba(3, 43, 3, 0.712);
+  opacity: 0.7;
+ }

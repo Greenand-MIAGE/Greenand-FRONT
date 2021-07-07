@@ -1,4 +1,4 @@
-import '../../styles/style.css';
+import '../../styles/style_Accueil.css';
 import logo from '../../assets/logoVers2.png';
 
 function presentation() {
