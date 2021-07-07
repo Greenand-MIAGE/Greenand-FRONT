@@ -1,40 +1,81 @@
-import'../../styles/style.css'
+import '../../styles/style.css'
 
 function Footer() {
-    return (
-    
-  <div className="container-fluid-inline">
-    <footer>
-      <div className="text-center" id="liens">
-             <a href="#!" className="text">Mentions légales</a>
-             <a href="#!" className="text">Gestion des données personnelles et Cookies </a>
-             <a href="#!" className="text">Conditions générales d'utilisation</a>
-             <a href="#!" className="text">Conditions générales de vente</a>
-             <a href="#!" className="text">Nous contacter</a> 
-      </div>
-      <div id="reseaux">
-        <section className="mb-4" >
-            <a className="btn btn-outline-light m-1" href="#!" role="button"> 
-             <i className="fab fa-facebook-f" ></i>
-            </a>
-            <a className="btn btn-outline-light m-1" href="#!" role="button">
-             <i className="fab fa-twitter"></i>
-             </a>
-            <a className="btn btn-outline-light  m-1" href="#!" role="button">
-              <i className="fab fa-google"></i>
-            </a>
-            <a className="btn btn-outline-light m-1" href="#!" role="button">
-              <i className="fab fa-instagram"></i>
-              </a>
-        </section>
-      </div>
-      <div className="text-center p-3" id="copy">
-          © 2021 Copyright: 
-         <a className="text"> Greenand</a>
-      </div>
-    </footer>
-  </div>
-    )
+  return (
+    <div>
+
+      <div className="container-fluid" >
+        <footer className="text-center text-white" >
+
+          <div className="container pt-4">
+
+            <section className="mb-4">
+
+              <a
+                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+              ><i className="fab fa-facebook-f"></i
+              ></a>
+
+
+              <a
+                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+              ><i className="fab fa-twitter"></i
+              ></a>
+
+
+              <a
+                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+              ><i className="fab fa-google"></i
+              ></a>
+
+
+              <a
+                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+              ><i className="fab fa-instagram"></i
+              ></a>
+
+
+
+              <a
+                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+              ><i className="fab fa-linkedin"></i
+              ></a>
+
+              <a
+                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+              ><i className="fab fa-github"></i
+              ></a>
+            </section>
+
+          </div>
+
+          <div className="text-center p-3 copyright" >
+            © 2020 Copyright:
+            <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+
+        </footer>
+      </div >
+    </div>
+  )
 }
 
 export default Footer

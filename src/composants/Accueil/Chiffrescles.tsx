@@ -1,49 +1,62 @@
 import React from 'react'
 import '../../styles/style.css'
+import logo from '../../assets/madame.jpg'
+import adherent from '../../assets/adherents.jpg'
+import field from '../../assets/field.jpg'
 
 
 function Chiffrescles() {
     return (
-        <div className=" col-lg-12 col-md-12 col-sm-12" id="chiffres">
-            <div className="card">
-                <div className="card-body">
-                    <section className="page-section" id="services">
-                        <div className="text-center">
-                            <div>
-                                <h3 className="section-heading text-uppercase" id="text">Quelques chiffres clés</h3>
-                            </div>
-                            <h4 className="section-subheading text-muted" id="idf">Ile de France.</h4>
+        <div className="container-fluid chiffre">
+
+            <div className="row">
+                <div className=" col-lg-12 col-md-12 col-sm-12" id="chiffres">
+                    <div className="text-center">
+                        <div>
+                            <h3 className="section-heading text-uppercase" id="text"><b>Quelques chiffres clés</b></h3>
                         </div>
-                        <div className ="bloc-icon">
-                <div className="col-md-3">
-                    <span className="fa-stack fa-3x">
-                        <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i className="fas fa-user fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 className="my-3">9</h4>
-                    <p className="text-muted"> Nombre d’adhérents </p>
-                </div>
-                <div className="col-md-3">
-                    <span className="fa-stack fa-3x">
-                        <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i className="fas fa-map fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 className="my-3">15</h4>
-                    <p className="text-muted">Terrains en Ile-de-France</p>
-                </div>
-                <div className="col-md-3">
-                    <span className="fa-stack fa-3x">
-                        <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i className="fas fa-calendar-check fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 className="my-3">???</h4>
-                    <p className="text-muted">???</p>
+                        <h4 className="section-subheading text-muted" id="idf">Ile de France.</h4>
+                    </div>
                 </div>
             </div>
-         </section>
-    </div>
-</div>
-</div>
+
+            <div className="row">
+
+                <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 img1">
+                    <div className="hovereffect">
+                        <img className="img-responsive rounded" src={adherent} alt="" />
+                        <div className="overlay">
+                            <h2>Nombre d'adhérents</h2>
+                            <a className="info" href="#!">9</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 img1">
+                    <div className="hovereffect">
+                        <img className="img-responsive" src={field} alt="" />
+                        <div className="overlay">
+                            <h2>Terrains en Ile-de-France</h2>
+                            <a className="info" href="#!">15</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 img1">
+                    <div className="hovereffect">
+                        <img className="img-responsive" src={adherent} alt="" />
+                        <div className="overlay">
+                            <h2>Nombre d'adhérents</h2>
+                            <a className="info" href="#!">9</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div >
     )
 }
 

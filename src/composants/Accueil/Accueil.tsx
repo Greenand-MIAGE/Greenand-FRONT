@@ -3,8 +3,12 @@ import Header from './Header'
 import Footer from './Footer'
 import Carousel from './Carousel'
 import PresentationGRN from "./PresentationGRN";
-import PropositionActivites from "./PropositionActivites";
 import ManageCookies from "./ManageCookies";
+import Presentation from "./Presentation";
+import Chiffre from './Chiffrescles'
+import Objectif from "./Objectif";
+import Cible from "./Cible";
+import PropositionActivites from "./PropositionActivites";
 
 
 
@@ -15,9 +19,19 @@ function Accueil() {
             
       <Header />
       <Carousel />
+      <Presentation />
+      <PropositionActivites />
+      <Chiffre />
+      <Cible />
+      <Footer/>
+      
+
+    {/* 
+      
       <PresentationGRN />
       <ManageCookies />        
       <Footer/>
+      */}
   
     </div>
   );

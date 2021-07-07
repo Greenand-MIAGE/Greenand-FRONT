@@ -10,7 +10,7 @@ function PresentationGRN() {
     return (
         <div className="container-fluid">
             <div className="card_ens">
-                 <div className="card mb-3">
+                <div className="card mb-3">
                     <div className="row g-0">
                         <div className="col-md-4">
                             <img
@@ -25,13 +25,15 @@ function PresentationGRN() {
                                 <div className="title_card">
                                     <h3 className="card-title">Qui sommes-nous ?</h3>
                                 </div>
-                                <p className="card-text">
-                                    <div className="card_typo">
+                                <div className="card_typo">
+                                    <p className="card-text ">
+
                                         70% des possesseurs d'un jardin ne l'entretiennent pas en France. 55% des Français qui n'ont pas de jardin aimeraient avoir un espace vert.
                                         Vous êtes possesseur d'un jardin et vous souhaitez apprendre à cultiver ? Vous n'avez pas de jardin et vous aimeriez partager votre passion aux services des autres ?
                                         Greenand est la solution pour vous ! Il s'agit d’un espace de partage de jardins, centré autour de l'apprentissage entre possesseurs de jardin et de personnes souhaitant se former à l’agriculture.
-                                    </div>
-                                </p>
+
+                                    </p>
+                                </div>
                                 <p className="card-text">
                                     <small className="text-muted">- Les Copains Jardins</small>
                                 </p>
@@ -40,7 +42,7 @@ function PresentationGRN() {
                     </div>
                 </div>
             </div>
-            {<Chiffrescles/>}
+            {<Chiffrescles />}
             <div className="container-fluid">
                 <div className="row">
                     <div className=" col-lg-1 col-md-1 col-sm-1">
@@ -59,9 +61,11 @@ function PresentationGRN() {
                     <div className=" col-lg-1 col-md-1 col-sm-1">  </div>
                 </div>
             </div>
+
+            
             <div className="p3_card">
                 <div className="row">
-                    <div className="col-md-4 offset-md-1 mx-3 my-3">
+                    <div className="col-md-4 offset-md-1 mx-2 my-2">
                         <div className="view overlay">
                             <img src={p2_img} className="img-fluid" alt="..." id="p2_img"></img>
                         </div>
@@ -74,6 +78,8 @@ function PresentationGRN() {
                     </div>
                 </div>
             </div>
+
+
             {<PropositionActivites />}
             <div className="container-fluid">
                 <div className="row">
@@ -104,9 +110,9 @@ function PresentationGRN() {
                         </p>
                     </div>
                 </div>
-                <div className="card mb-3">
-                    <div className="row g-0">
-                        <div className="col-md-8">
+                <div className="card">
+                    <div className="row ">
+                        <div className="col-sm">
                             <div className="card-body">
                                 <div className="title_card">
                                     <h3 className="card-title">Nos activités futurs ?</h3>

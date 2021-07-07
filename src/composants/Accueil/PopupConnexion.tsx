@@ -1,11 +1,12 @@
-import '../../styles/style.css'
+import '../../styles/header.css'
+
 function PopupConnexion() {
   return (
     <div>
       <div className="container-fluid">
         <div>
           <button
-            className="btn btn-outline-success"
+            className="btn btn-outline-light"
             id="connexion_button"
             type="button"
             data-toggle="modal"
@@ -16,6 +17,7 @@ function PopupConnexion() {
             </svg>
           </button>
         </div>
+
         <div
           className="modal fade"
           id="modal1"
@@ -49,7 +51,7 @@ function PopupConnexion() {
                       className="form-control"
                       id="modal1"
                       aria-describedby="emailHelp"
-                      placeholder="Enter email"
+                      placeholder="Adresse e-mail"
                       required
                     />
                   </div>
@@ -59,7 +61,7 @@ function PopupConnexion() {
                       type="password"
                       className="form-control"
                       id="exampleInputPassword1"
-                      placeholder="Password"
+                      placeholder="Mot de passe"
                       required
                     />
                   </div>
@@ -79,7 +81,6 @@ function PopupConnexion() {
               </div>
               <div className="modal-footer">
                 <p>
-
                   Pas encore de compte ?
                   <button
                     id="but_witht_brd"
