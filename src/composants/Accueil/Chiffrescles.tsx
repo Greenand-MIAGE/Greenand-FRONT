@@ -15,7 +15,7 @@ function Chiffrescles() {
                         <div>
                             <h3 className="section-heading text-uppercase" id="text"><b>Quelques chiffres clés</b></h3>
                         </div>
-                        <h4 className="section-subheading text-muted" id="idf">Ile de France.</h4>
+                        <h4 className="section-subheading text-muted" id="idf">Ile de France</h4>
                     </div>
                 </div>
             </div>

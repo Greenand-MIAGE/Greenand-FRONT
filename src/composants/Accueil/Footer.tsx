@@ -2,9 +2,9 @@ import '../../styles/style.css'
 
 function Footer() {
   return (
-    <div>
+    <div className="">
 
-      <div className="container-fluid" >
+      <div className="container-fluid footerGreenand" >
         <footer className="text-center text-white " >
 
           <div className="container pt-4">
