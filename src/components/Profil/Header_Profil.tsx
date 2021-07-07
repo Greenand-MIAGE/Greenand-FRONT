@@ -8,7 +8,7 @@ function Header() {
         <div className="header">
             <nav className="navbar navbar-expand-lg navbar-light fixed-top menu">
                 <div className="container-fluid ">
-                    <a href="!#" className="navbar-brand">
+                    <a href="/accueil" className="navbar-brand">
                         <img src={logo_text} height="50" alt="CoolBrand" className="logo_text" />
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,12 +20,12 @@ function Header() {
                         </ul>
                         <ul className="navbar-nav nav-flex-icons">
                             <li className="nav-item active">
-                                <a className="nav-link" href="!#">Voir les annonces
+                                <a className="nav-link" href="/annonces">Voir les annonces
                                     <span className="sr-only">(current)</span>
                                 </a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link" href="!#">Déposer une annonce
+                                <a className="nav-link" href="/creationAnnonce">Déposer une annonce
                                     <span className="sr-only">(current)</span>
                                 </a>
                             </li>
