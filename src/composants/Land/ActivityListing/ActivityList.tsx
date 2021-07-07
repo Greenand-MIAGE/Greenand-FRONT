@@ -14,7 +14,7 @@ function ActivityList(props) {
             <div>
               <select>
                 {activity.disponibility.map((dispo) => (
-                  <option key={dispo._id}>
+                  <option key={dispo._id} value={dispo._id}>
                     {dispo.startOfDay} {dispo.startOfHour}
                   </option>
                 ))}
