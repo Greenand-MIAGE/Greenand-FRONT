@@ -13,8 +13,6 @@ function Form_ajout_terre() {
   const [surface, setSurface] = useState(``);
   const history = useHistory();
 
-  const history = useHistory();
-
   const [streetErr, setStreetErr] = useState(``);
   const [cityErr, setCityErr] = useState(``);
   const [postalCodeErr, setPostalCodeErr] = useState(``);

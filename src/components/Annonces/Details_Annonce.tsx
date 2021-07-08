@@ -47,10 +47,6 @@ function Details_Annonce() {
     }
   };
 
-  const reRender = () => {
-    this.forceUpdate();
-  };
-
   const handleReservation = async (e) => {
     e.preventDefault();
     const idCren = idCreneauSelected.split("|")[0];
@@ -81,64 +77,66 @@ function Details_Annonce() {
         </div>
       </div>
 
-      <div className="formCreate" id="formCreateAnnonceId">
-        <section className="form my-4 mx-5">
-          <div className="container">
-            <div className="row py-5 d-flex flex-wrap rowCreateAnnonce">
-              <div className="col-lg-5 col-md">
-                <img
-                  src={gardenbgcard}
-                  className="img-fluid img_reservation"
-                  alt="imgForest"
-                />
-              </div>
-
-              <div className="col-lg-7 px-5 formCreateAnnonce text-center">
-                <h4>
-                  <b>
-                    <i>{activity.label}</i>
-                  </b>
-                </h4>
-
-                <br></br>
-                <h5>DESCRIPTION</h5>
-                <hr className="mb-5" />
-                <p>{activity.description}</p>
-                <h5>CHOISIR MON CRENEAU</h5>
-                <hr className="mb-5" />
-                <select
-                  className="form-control rounded-pill my-3"
-                  id="selectCreneau"
-                  required
-                  onChange={(e) => handleChange(e, `selectCreneau`)}
-                >
-                  <option></option>
-                  {activity.disponibility &&
-                    activity.disponibility.map((dispo) => (
-                      <option
-                        key={dispo._id}
-                        value={`${dispo._id}|${dispo.startOfDay}|${dispo.startOfHour}`}
-                      >
-                        {dispo.startOfDay} {dispo.startOfHour}
-                      </option>
-                    ))}
-                </select>
-                <div className="text-center">
-                  <button type="submit" className="btn1 mt-3 mb-5">
-                    Valider
-                  </button>
+      <form onSubmit={handleReservation}>
+        <div className="formCreate" id="formCreateAnnonceId">
+          <section className="form my-4 mx-5">
+            <div className="container">
+              <div className="row py-5 d-flex flex-wrap rowCreateAnnonce">
+                <div className="col-lg-5 col-md">
+                  <img
+                    src={gardenbgcard}
+                    className="img-fluid img_reservation"
+                    alt="imgForest"
+                  />
                 </div>
-                <div className="headings"></div>
-              </div>
-              <div className="text-center">
-                <div className="headings"></div>
+
+                <div className="col-lg-7 px-5 formCreateAnnonce text-center">
+                  <h4>
+                    <b>
+                      <i>{activity.label}</i>
+                    </b>
+                  </h4>
+
+                  <br></br>
+                  <h5>DESCRIPTION</h5>
+                  <hr className="mb-5" />
+                  <p>{activity.description}</p>
+                  <h5>CHOISIR MON CRENEAU</h5>
+                  <hr className="mb-5" />
+                  <select
+                    className="form-control rounded-pill my-3"
+                    id="selectCreneau"
+                    required
+                    onChange={(e) => handleChange(e, `selectCreneau`)}
+                  >
+                    <option></option>
+                    {activity.disponibility &&
+                      activity.disponibility.map((dispo) => (
+                        <option
+                          key={dispo._id}
+                          value={`${dispo._id}|${dispo.startOfDay}|${dispo.startOfHour}`}
+                        >
+                          {dispo.startOfDay} {dispo.startOfHour}
+                        </option>
+                      ))}
+                  </select>
+                  <div className="text-center">
+                    <button type="submit" className="btn1 mt-3 mb-5">
+                      Valider
+                    </button>
+                  </div>
+                  <div className="headings"></div>
+                </div>
+                <div className="text-center">
+                  <div className="headings"></div>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
-      </div>
+          </section>
+        </div>
 
-      {<Footer />}
+        {<Footer />}
+      </form>
     </div>
   );
 }

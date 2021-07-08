@@ -331,14 +331,15 @@ function SignUp() {
                   className="form-check-input"
                   type="checkbox"
                   value=""
-                  id="flexCheckDefault"
+                  id="flexCGU"
                   required
                 />
-                <label className="form-check-label" htmlFor="flexCheckDefault">
+                <label className="form-check-label" htmlFor="flexCGU">
                   *J'accepte les Conditions générales d'utilisation et la
                   Politique de confidentialité.
                 </label>
-
+              </div>
+              <div className="form-check">
                 <input
                   className="form-check-input"
                   type="checkbox"
@@ -347,7 +348,8 @@ function SignUp() {
                   required
                 />
                 <label className="form-check-label" htmlFor="flexCheckDefault">
-                  *Je refuse de recevoir des communications de la part de Greenand SARL*
+                  *Je refuse de recevoir des communications de la part de
+                  Greenand SARL*
                 </label>
               </div>
               <div className="modal-footer">
