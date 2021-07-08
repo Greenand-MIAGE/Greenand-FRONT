@@ -1,5 +1,5 @@
 import { get } from "../xhr";
 
 export const getClientById = () => {
-    return get(`/client`);
-}
+  return get(`/client`);
+};

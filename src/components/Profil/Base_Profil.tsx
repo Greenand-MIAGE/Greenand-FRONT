@@ -1,6 +1,6 @@
-import Footer from '../Accueil/Footer'
-import Profile from './Profil'
-import Header_Co from '../Accueil_Connecté/Header_Co';
+import Footer from "../Accueil/Footer";
+import Profile from "./Profil";
+import Header_Co from "../Accueil_Connecté/Header_Co";
 
 function PageProfil() {
   return (
@@ -10,6 +10,5 @@ function PageProfil() {
       <Footer />
     </div>
   );
-
 }
 export default PageProfil;

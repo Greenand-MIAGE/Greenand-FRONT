@@ -176,9 +176,7 @@ function CreateAnnonces() {
                     {descriptionErr && (
                       <small className="text-danger">{descriptionErr}</small>
                     )}
-                    {err && (
-                      <small className="text-danger">{err}</small>
-                    )}
+                    {err && <small className="text-danger">{err}</small>}
                   </div>
                 </div>
 

@@ -9,9 +9,9 @@ export const getEvenements = async () => {
 };
 
 export const getEvenementById = async (id) => {
-    return get(`/activity/${id}`)
-}
+  return get(`/activity/${id}`);
+};
 
 export const reservationCreneau = (id, evenement) => {
-    return put(`/reservation/${id}`, evenement);
-}
+  return put(`/reservation/${id}`, evenement);
+};

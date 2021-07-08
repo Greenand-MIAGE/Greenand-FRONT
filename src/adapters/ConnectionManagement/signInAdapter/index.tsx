@@ -5,5 +5,5 @@ export const signIn = (client) => {
 };
 
 export const logout = () => {
-  return deleteAxios('/logout', {});
-}
+  return deleteAxios("/logout", {});
+};

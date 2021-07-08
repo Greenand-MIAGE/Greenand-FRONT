@@ -2,7 +2,6 @@ import "../App.tsx";
 import "../../styles/style_Header.css";
 import PopupConnexion from "./PopupConnexion";
 import logo_text from "../../assets/Logo_texte_white.png";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (

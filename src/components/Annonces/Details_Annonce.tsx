@@ -1,13 +1,9 @@
 //@ts-nocheck
 import React, { useEffect, useState } from "react";
 import "../../styles/style_Reservation.css";
-import lieu from "../../assets/Garden.jpg";
 import Footer from "../Accueil/Footer";
-import Popup_Reservation from "./Popup_Reservation";
 import Header from "../Accueil_Connecté/Header_Co";
-import forest from "../../assets/forest.jpg";
 import gardenbgcard from "../../assets/jardin_reservation.jpg";
-import logo from "../../assets/Logo_text.png";
 import { useParams } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
@@ -15,7 +11,6 @@ import {
   getEvenementById,
   reservationCreneau,
 } from "../../adapters/EvenementManagement/evenementAdapter";
-import { setServers } from "dns";
 
 function Details_Annonce() {
   const { id } = useParams();

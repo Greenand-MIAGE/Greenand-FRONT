@@ -278,10 +278,7 @@ function Creation_annonces() {
 
                             <button
                               type="submit"
-                              disabled={
-                                labelErr ||
-                                descriptionErr 
-                              }
+                              disabled={labelErr || descriptionErr}
                               className="btn btn-success"
                             >
                               Ajouter

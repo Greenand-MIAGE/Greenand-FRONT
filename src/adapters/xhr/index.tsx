@@ -24,5 +24,5 @@ export const put = (url, requestData) => {
 
 export const deleteAxios = (url, requestData) => {
   const axios = returnAxiosInstance();
-  return axios.delete(BASE_API+url, requestData);
-}
+  return axios.delete(BASE_API + url, requestData);
+};

@@ -1,7 +1,7 @@
 /* Présentation */
 
 .presentation {
-  margin-top   : 2%;
+  margin-top: 2%;
   margin-bottom: 2%;
 }
 
@@ -11,7 +11,7 @@
 
 /* Chiffres-clés*/
 .chiffre {
-  margin-top   : -2%;
+  margin-top: -2%;
   margin-bottom: 4%;
 }
 
@@ -28,7 +28,7 @@ h3 {
 }
 
 #idf {
-  font-family  : Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   margin-bottom: 2%;
 }
 
@@ -38,11 +38,9 @@ h4 {
 
 .text-muted {
   font-family: Helvetica, sans-serif;
-
 }
 
 .bloc-icon {
-
   margin-top: 3%;
 }
 
@@ -55,89 +53,89 @@ h4 {
 }
 
 .hovereffect {
-  width        : 100%;
-  height       : 100%;
-  float        : left;
-  overflow     : hidden;
-  position     : relative;
-  text-align   : center;
-  cursor       : default;
-  margin-top   : 5%;
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  margin-top: 5%;
   border-radius: 25px;
-  border       : 2px;
-  max-height   : 400px;
+  border: 2px;
+  max-height: 400px;
 }
 
 .hovereffect .overlay {
-  width             : 100%;
-  height            : 100%;
-  position          : absolute;
-  overflow          : hidden;
-  top               : 0;
-  left              : 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
   -webkit-transition: all 0.4s ease-in-out;
-  transition        : all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .hovereffect:hover .overlay {
   background-color: rgba(0, 0, 0, 0.4);
-  max-height      : 400px;
+  max-height: 400px;
 }
 
 .hovereffect img {
-  display   : block;
-  position  : relative;
+  display: block;
+  position: relative;
   max-height: 400px;
 }
 
 .hovereffect h2 {
-  text-transform    : uppercase;
-  color             : #fff;
-  text-align        : center;
-  position          : relative;
-  font-size         : 17px;
-  padding           : 10px;
-  background        : rgba(0, 0, 0, 0.6);
-  -webkit-transform : translateY(45px);
-  -ms-transform     : translateY(45px);
-  transform         : translateY(350%);
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(350%);
   -webkit-transition: all 0.4s ease-in-out;
-  transition        : all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .hovereffect:hover h2 {
   -webkit-transform: translateY(45px);
-  -ms-transform    : translateY(45px);
-  transform        : translateY(300%);
+  -ms-transform: translateY(45px);
+  transform: translateY(300%);
 }
 
 .hovereffect a.info {
-  display           : inline-block;
-  text-decoration   : none;
-  padding           : 7px 14px;
-  text-transform    : uppercase;
-  color             : #fff;
-  font-size         : 25px;
-  border            : 1px solid #fff;
-  background-color  : transparent;
-  opacity           : 0;
-  filter            : alpha(opacity=0);
-  -webkit-transform : scale(0);
-  -ms-transform     : scale(0);
-  transform         : scale(0);
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
   -webkit-transition: all 0.4s ease-in-out;
-  transition        : all 0.4s ease-in-out;
-  font-weight       : normal;
-  margin            : -5% 0 0 0;
-  padding           : 25% 40%;
+  transition: all 0.4s ease-in-out;
+  font-weight: normal;
+  margin: -5% 0 0 0;
+  padding: 25% 40%;
 }
 
 .hovereffect:hover a.info {
-  opacity          : 1;
-  filter           : alpha(opacity=100);
+  opacity: 1;
+  filter: alpha(opacity=100);
   -webkit-transform: scale(1);
-  -ms-transform    : scale(1);
-  transform        : scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
 .hovereffect a.info:hover {
@@ -151,31 +149,31 @@ h4 {
 
 /* Cible */
 .cible {
-  margin-top   : 2%;
+  margin-top: 2%;
   margin-bottom: 3%;
 }
 
 .card_img_cible {
   background-image: url("../assets/Big_Garden.jpg");
-  width           : 100%;
-  max-height      : 400px;
-  border-radius   : 25px;
-  border          : 1px;
+  width: 100%;
+  max-height: 400px;
+  border-radius: 25px;
+  border: 1px;
 }
 
 .mask {
   margin: 0;
   padding: 0;
   background: rgba(0, 0, 0, 0.35);
-  border-radius   : 25px;
+  border-radius: 25px;
 }
 
-.mask h2{
+.mask h2 {
   color: white;
   font-size: 50px;
 }
 
-.mask p{
+.mask p {
   color: white;
   font-size: 20px;
 }
@@ -183,48 +181,45 @@ h4 {
 /*DescritpionGRD*/
 
 #but_witht_brd {
-  border          : none;
+  border: none;
   background-color: white;
-  color           : green;
+  color: green;
 }
 
 .greenand_logo {
   margin-left: 3%;
-  width      : 5%;
-  margin-top : -10%;
-
+  width: 5%;
+  margin-top: -10%;
 }
 
 .card_ens {
-  width        : 80%;
-  height       : 50%;
-  margin-left  : 10%;
-  flex-shrink  : 0;
-  box-shadow   : 0 0 5px 5px rgba(11, 104, 11, 0.5);
+  width: 80%;
+  height: 50%;
+  margin-left: 10%;
+  flex-shrink: 0;
+  box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
   border-radius: 0px 80px 0px 80px;
-
 }
 
 .card_typo {
-  text-align   : justify;
+  text-align: justify;
   margin-bottom: 5%;
 }
 
 #card_logo {
-  width     : 90%;
+  width: 90%;
   margin-top: 0%;
 }
 
 .title_card {
   margin-top: 2%;
-  color     : rgba(0, 128, 0, 0.774);
+  color: rgba(0, 128, 0, 0.774);
 }
 
 .p3_card {
-
   border-radius: 25px;
-  border       : 1px;
-  box-shadow   : 0 0 5px 5px red;
+  border: 1px;
+  box-shadow: 0 0 5px 5px red;
 }
 
 #p2_img {
@@ -232,48 +227,48 @@ h4 {
 }
 
 .p4_card {
-  width        : 100%;
-  height       : 20%;
-  box-shadow   : 0 0 3px 3px rgba(11, 104, 11, 0.5);
+  width: 100%;
+  height: 20%;
+  box-shadow: 0 0 3px 3px rgba(11, 104, 11, 0.5);
   border-radius: 0px 120px 0px 120px;
 }
 
 #p4_img {
   margin-bottom: 2%;
-  width        : 80%;
+  width: 80%;
   border-radius: 0px 80px 0px 0px;
 }
 
 /*PROPOSITION ACTIVITES*/
 #cards {
-  margin-top   : 5%;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
 #card1 {
   background-color: rgb(255, 255, 255);
-  border-color    : white;
-  border-radius   : 0px 80px 0px 0px;
-  text-align      : justify;
+  border-color: white;
+  border-radius: 0px 80px 0px 0px;
+  text-align: justify;
 }
 
 #card2 {
   background-color: rgb(255, 255, 255);
-  border-color    : white;
-  border-radius   : 80px 0px 80px 0px;
-  text-align      : justify;
+  border-color: white;
+  border-radius: 80px 0px 80px 0px;
+  text-align: justify;
 }
 
-#card1>img {
-  margin-top   : 2%;
+#card1 > img {
+  margin-top: 2%;
   border-radius: 25px 0px 0px 0px;
-  box-shadow   : 0 0 5px 5px rgba(11, 104, 11, 0.5);
+  box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
 }
 
-#card2>img {
-  margin-top   : 2%;
+#card2 > img {
+  margin-top: 2%;
   border-radius: 0px 25px 0px 0px;
-  box-shadow   : 0 0 5px 5px rgba(11, 104, 11, 0.5);
+  box-shadow: 0 0 5px 5px rgba(11, 104, 11, 0.5);
 }
 
 .card-title {
@@ -291,28 +286,28 @@ footer {
 }
 
 #liens {
-  display       : flex;
+  display: flex;
   flex-direction: row;
 }
 
-#liens>a {
-  margin-top   : 2%;
+#liens > a {
+  margin-top: 2%;
   margin-bottom: 10px;
-  color        : whitesmoke;
-  font-family  : Helvetica, sans-serif;
+  color: whitesmoke;
+  font-family: Helvetica, sans-serif;
 }
 
 #reseaux {
-  margin-left : 43%;
+  margin-left: 43%;
   margin-right: 30%;
-  color       : whitesmoke;
+  color: whitesmoke;
 }
 
 #copy {
   background-color: whitesmoke;
-  font-family     : Helvetica, sans-serif;
-  font-weight     : bold;
-  margin-top      : 2%;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 2%;
 }
 
 .svg-inline--fa {
@@ -320,11 +315,11 @@ footer {
 }
 
 [class*="btn-outline-"] {
-  border-width      : .125rem;
-  border-style      : solid;
+  border-width: 0.125rem;
+  border-style: solid;
   -webkit-box-shadow: none;
-  box-shadow        : none;
-  padding           : .3rem .9rem .25rem;
+  box-shadow: none;
+  padding: 0.3rem 0.9rem 0.25rem;
 }
 
 .footerGreenand {
@@ -335,7 +330,7 @@ footer {
 }
 
 /*Reservation*/
-#cardReservation{
+#cardReservation {
   width: 45rem;
   height: 40em;
   margin: auto !important;

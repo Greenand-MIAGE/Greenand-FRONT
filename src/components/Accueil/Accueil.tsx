@@ -1,8 +1,8 @@
-import Header from './Header'
-import Footer from './Footer'
-import Carousel from './Carousel'
+import Header from "./Header";
+import Footer from "./Footer";
+import Carousel from "./Carousel";
 import Presentation from "./Presentation";
-import Chiffre from './Chiffrescles'
+import Chiffre from "./Chiffrescles";
 import Cible from "./Cible";
 import PropositionActivites from "./PropositionActivites";
 
@@ -18,6 +18,5 @@ function Accueil() {
       <Footer />
     </div>
   );
-
 }
-export default Accueil
+export default Accueil;
