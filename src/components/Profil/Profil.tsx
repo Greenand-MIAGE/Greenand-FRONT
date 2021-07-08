@@ -56,11 +56,13 @@ function Profil() {
         </div>
         <div className="col-md-6">
           <div className="profile-head">
-            <h5>{(client.lastName)} {client.firstName}</h5>
+            <h5>
+              {client.lastName} {client.firstName}
+            </h5>
             <h6>{client.profession}</h6>
             <br></br>
             <p className="proile-rating">
-              <span>Membre depuis {client.createdAt }</span>
+              <span>Membre depuis {client.createdAt}</span>
             </p>
             <ul className="nav nav-tabs" id="myTab" role="tablist">
               <li className="nav-item">
@@ -91,8 +93,7 @@ function Profil() {
       <div className="row">
         <div className="col-md-4">
           <div className="profile-work">
-            <h4 className="txt-confirmation">
-            </h4>
+            <h4 className="txt-confirmation"></h4>
             <p className="verif">
               <b>
                 <span>&#10003;</span>
@@ -176,29 +177,7 @@ function Profil() {
                   </p>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-md-6">
-                  <label>Téléphone: </label>
-                </div>
-                <div className="col-md-6">
-                  <p>{client.phone}</p>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-6">
-                  <label>Profession: </label>
-                </div>
-                <div className="col-md-6">
-                  <p>{client.profession}</p>
-                </div>
-              </div>
               <br></br>
-              <div className="row">
-                <div className="col-md-6">
-                  <label>Description: </label>
-                </div>
-                <p>{client.description}</p>
-              </div>
             </div>
           </div>
         </div>

@@ -9,13 +9,17 @@ import { useState, useEffect } from "react";
 import { getLands } from "../../adapters/LandManagement/landAdapter";
 import { createEvenement } from "../../adapters/EvenementManagement/evenementAdapter";
 import classnames from "classnames";
+import { useHistory } from "react-router-dom";
 
 function CreateAnnonces() {
+  const history = useHistory();
+
   const [values, setValues] = useState([]);
   const [label, setLabel] = useState(``);
   const [description, setDescription] = useState(``);
   const [lands, setLands] = useState([]);
   const [id, setId] = useState(``);
+  const [err, setErr] = useState(``);
 
   const [labelErr, setLabelErr] = useState(``);
   const [descriptionErr, setDescriptionErr] = useState(``);
@@ -46,7 +50,7 @@ function CreateAnnonces() {
         break;
 
       case `description`:
-        console.log("ici")
+        console.log("ici");
         setDescription(evenement.description);
         if (evenement.description.length < 20) {
           setDescriptionErr(
@@ -81,7 +85,9 @@ function CreateAnnonces() {
         label,
         description,
         disponibility: dayBody,
-      });
+      })
+        .then(() => history.push("/annonces"))
+        .catch(() => setErr("Erreur dans la création d'une annonce"));
     }
   };
 
@@ -169,6 +175,9 @@ function CreateAnnonces() {
                     ></textarea>
                     {descriptionErr && (
                       <small className="text-danger">{descriptionErr}</small>
+                    )}
+                    {err && (
+                      <small className="text-danger">{err}</small>
                     )}
                   </div>
                 </div>

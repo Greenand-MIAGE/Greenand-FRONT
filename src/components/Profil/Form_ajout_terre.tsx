@@ -2,6 +2,7 @@
 import { useState } from "react";
 import classnames from "classnames";
 import { createLand } from "../../adapters/LandManagement/landAdapter";
+import { useHistory } from "react-router-dom";
 
 import "../../styles/style_Accueil.css";
 
@@ -10,11 +11,13 @@ function Form_ajout_terre() {
   const [city, setCity] = useState(``);
   const [postalCode, setPostalCode] = useState(``);
   const [surface, setSurface] = useState(``);
+  const history = useHistory();
 
   const [streetErr, setStreetErr] = useState(``);
   const [cityErr, setCityErr] = useState(``);
   const [postalCodeErr, setPostalCodeErr] = useState(``);
   const [surfaceErr, setSurfaceErr] = useState(``);
+  const [err, setErr] = useState(``);
 
   const handleChange = (e, name) => {
     const land = {};
@@ -77,7 +80,9 @@ function Form_ajout_terre() {
       !postalCodeErr &&
       !surfaceErr
     ) {
-      await createLand({ street, city, postalCode, surface });
+      await createLand({ street, city, postalCode, surface })
+        .then(() => history.push("/creation-annonce"))
+        .catch(() => setErr("Erreur dans la création d'une land"));
     }
   };
 
@@ -187,6 +192,7 @@ function Form_ajout_terre() {
                     {surfaceErr && (
                       <small className="text-danger">{surfaceErr}</small>
                     )}
+                    {err && <small className="text-danger">{err}</small>}
                   </div>
                 </div>
                 <div className="modal-footer">

@@ -40,9 +40,10 @@ function Annonces() {
       <div className="row py-5"></div>
 
       <div className="row">
-        <div className="col-md-3 clearfix d-none d-md-block">
-          {activities &&
-            activities.map((activity, id) => (
+        {" "}
+        {activities &&
+          activities.map((activity) => (
+            <div className="col-md clearfix d-none d-md-block">
               <div key={activity._id}>
                 <div className="card mb-2">
                   <img
@@ -66,8 +67,8 @@ function Annonces() {
                   </div>
                 </div>
               </div>
-            ))}
-        </div>
+            </div>
+          ))}
       </div>
     </div>
   );

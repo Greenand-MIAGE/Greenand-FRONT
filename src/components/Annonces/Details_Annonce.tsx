@@ -5,15 +5,22 @@ import lieu from "../../assets/Garden.jpg";
 import Footer from "../Accueil/Footer";
 import Popup_Reservation from "./Popup_Reservation";
 import { useParams } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+
 import {
   getEvenementById,
   reservationCreneau,
 } from "../../adapters/EvenementManagement/evenementAdapter";
+import { setServers } from "dns";
 
 function Details_Annonce() {
   const { id } = useParams();
   const [activity, setActivity] = useState(``);
   const [idCreneauSelected, setIdCreneauSelected] = useState(``);
+
+  const history = useHistory();
+
+  const [err, setErr] = useState(``);
 
   useEffect(() => {
     const fetchLands = async () => {
@@ -36,22 +43,23 @@ function Details_Annonce() {
     }
   };
 
+  const reRender = () => {
+    this.forceUpdate();
+  };
+
   const handleReservation = async (e) => {
     e.preventDefault();
     const idCren = idCreneauSelected.split("|")[0];
     const date = idCreneauSelected.split("|")[1];
     const hour = idCreneauSelected.split("|")[2];
 
-    console.log(idCren);
-    console.log(id);
-    console.log(date);
-    console.log(hour);
-
     await reservationCreneau(id, {
       idCreneau: idCren,
       startOfDay: date,
       startOfHour: hour,
-    });
+    })
+      .then(() => history.push("/annonces"))
+      .catch(() => setErr("Erreur dans la réservation"));
   };
   return (
     <div>
@@ -75,6 +83,7 @@ function Details_Annonce() {
                     {dispo.startOfDay} {dispo.startOfHour}
                   </option>
                 ))}
+              {err && <small className="text-danger">{err}</small>}
             </select>
             <button type="submit">ok</button>
           </div>

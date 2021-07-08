@@ -21,3 +21,8 @@ export const put = (url, requestData) => {
   const axios = returnAxiosInstance();
   return axios.put(BASE_API + url, requestData);
 };
+
+export const deleteAxios = (url, requestData) => {
+  const axios = returnAxiosInstance();
+  return axios.delete(BASE_API+url, requestData);
+}

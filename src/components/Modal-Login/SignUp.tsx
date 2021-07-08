@@ -3,8 +3,11 @@ import React from "react";
 import classnames from "classnames";
 import { signUp } from "../../adapters/ConnectionManagement/signUpAdapter";
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
+import { signIn } from "../../adapters/ConnectionManagement/signInAdapter";
 
 function SignUp() {
+  const history = useHistory();
   const [lastName, setLastName] = useState(``);
   const [firstName, setFirstName] = useState(``);
   const [street, setStreet] = useState(``);
@@ -22,6 +25,7 @@ function SignUp() {
   const [mailErr, setMailErr] = useState(``);
   const [passwordErr, setPasswordErr] = useState(``);
   const [confirmPasswordErr, setConfirmPasswordErr] = useState(``);
+  const [err, setErr] = useState(``);
 
   const handleChange = (e, name) => {
     const client = {};
@@ -145,7 +149,10 @@ function SignUp() {
         mail,
         password,
         confirmPassword,
-      });
+      })
+        .then(async () => await signIn({ mail, password }))
+        .then(() => history.push("/accueil"))
+        .catch(() => setErr("Une erreur dans le formulaire s'est glissée."));
     }
   };
   return (
@@ -317,6 +324,7 @@ function SignUp() {
                 {confirmPasswordErr && (
                   <small className="text-danger">{confirmPasswordErr}</small>
                 )}
+                {err && <small className="text-danger">{err}</small>}
               </div>
               <div className="form-check">
                 <input
