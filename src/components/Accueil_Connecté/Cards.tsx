@@ -21,7 +21,7 @@ function Cards() {
                                 Cela vous intéresse? Rejoignez vite notre communauté!
                             </p>
                             <button type="button" className="btn btn-success btn-lg">
-                                <Link className="linktest dropdown-item" to="/creationAnnonce">Déposer une annonce</Link>
+                                <Link className="linktest dropdown-item" to="/creation-annonce">Déposer une annonce</Link>
                             </button>
                         </div>
                     </div>
