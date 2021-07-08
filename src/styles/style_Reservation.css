@@ -1,0 +1,14 @@
+.contain_reservation{
+    margin-top : 3%;
+}
+
+.img_reservation {
+    display: block;
+
+    }
+@media (max-width: 640px) {
+    .img_reservation {
+        display: none;
+
+        }
+    };

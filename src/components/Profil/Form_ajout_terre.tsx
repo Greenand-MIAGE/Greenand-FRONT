@@ -2,6 +2,7 @@
 import { useState } from "react";
 import classnames from "classnames";
 import { createLand } from "../../adapters/LandManagement/landAdapter";
+import { useHistory } from "react-router-dom";
 
 import "../../styles/style_Accueil.css";
 
@@ -10,6 +11,8 @@ function Form_ajout_terre() {
   const [city, setCity] = useState(``);
   const [postalCode, setPostalCode] = useState(``);
   const [surface, setSurface] = useState(``);
+
+  const history = useHistory();
 
   const [streetErr, setStreetErr] = useState(``);
   const [cityErr, setCityErr] = useState(``);
@@ -78,6 +81,7 @@ function Form_ajout_terre() {
       !surfaceErr
     ) {
       await createLand({ street, city, postalCode, surface });
+      history.push("/creation-annonce")
     }
   };
 

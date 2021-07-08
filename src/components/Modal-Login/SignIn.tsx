@@ -115,7 +115,7 @@ return (
             >
               Fermer
             </button>
-            <button type="submit" className="btn btn-success">
+            <button type="submit" className="btn btn-success ">
               Se Connecter
             </button>
           </div>
