@@ -338,6 +338,17 @@ function SignUp() {
                   *J'accepte les Conditions générales d'utilisation et la
                   Politique de confidentialité.
                 </label>
+
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                  required
+                />
+                <label className="form-check-label" htmlFor="flexCheckDefault">
+                  *Je refuse de recevoir des communications de la part de Greenand SARL*
+                </label>
               </div>
               <div className="modal-footer">
                 <button
