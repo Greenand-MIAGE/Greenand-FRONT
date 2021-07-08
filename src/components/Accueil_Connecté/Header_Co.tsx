@@ -8,7 +8,7 @@ function Header_Co() {
         <div className="header">
             <nav className="navbar navbar-expand-lg navbar-light fixed-top menu">
                 <div className="container-fluid ">
-                    <a href="/accueil" className="navbar-brand">
+                    <a href="/©accueil" className="navbar-brand">
                         <img src={logo_text} height="50" alt="CoolBrand" className="logo_text" />
                     </a>
 
