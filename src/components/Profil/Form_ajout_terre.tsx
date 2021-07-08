@@ -155,7 +155,7 @@ function Form_ajout_terre() {
                     )}
                   </div>
                   <div className="form-group">
-                    <label htmlFor="codepostal">Code postal *</label>
+                    <label htmlFor="codepostal">Code postal*</label>
                     <input
                       type="number"
                       name="postalCode"

@@ -1,11 +1,104 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: rgb(255, 255, 255);
 }
 
-.rounded-3 {
-  background-image: url('../assets/p11_img.jpg');
-  width           : 100%;
-  max-height      : 900px;
+a.btn-left {
+  color       : grey;
+  margin-right: 1%;
+}
+
+a.btn-right {
+  color      : grey;
+  margin-left: 1%;
+}
+
+.card-img-top {
+  border-radius: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.headerAnnonces {
+  margin : 0;
+  padding: 0;
+}
+
+.masthead {
+  height             : 100vh;
+  min-height         : 500px;
+  background-image   : url('../assets/p10_img.jpg');
+  background-size    : cover;
+  background-position: center;
+  background-repeat  : no-repeat;
+}
+
+.mask_style {
+  background-color: rgba(154, 216, 154, 0.548);
+}
+
+.btn-outline-white {
+  background-color: rgba(3, 43, 3, 0.712);
+  opacity         : 0.7;
+  color           : white;
+  border-color    : white;
+}
+
+.btn-outline-white:hover {
+  background-color: rgba(3, 43, 3, 0.712);
+  opacity         : 0.7;
+  color           : white;
+  border-color    : white;
+}
+
+/* Page create */
+.mastheadCreateAnnonce {
+  height             : 100vh;
+  min-height         : 500px;
+  background-image   : url('../assets/p11_img.jpg');
+  background-size    : cover;
+  background-position: center;
+  background-repeat  : no-repeat;
+}
+
+.formCreate {
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box;
+}
+
+.rowCreateAnnonce {
+  border-radius: 30px;
+  box-shadow: 6px 6px 11px grey;
+}
+
+.rowCreateAnnonce img {
+  border-top-left-radius   : 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.formCreateAnnonce img {
+  max-width: 200px;
+}
+
+.btn1 {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: #0B680B;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn1:hover {
+  background: white;
+  border: 1px solid;
+  color: #0B680B;
 }

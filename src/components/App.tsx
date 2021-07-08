@@ -2,8 +2,8 @@ import "../styles/App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Accueil from "./Accueil/Accueil";
 import Accueil_Co from "./Accueil_Connecté/Accueil_Co";
-import CreateAnnonce from "./Annonces/Creation_annonces";
-import Annonces from "./Annonces/Offres";
+import CreateAnnonce from './Annonces/Main_Create_Annonce';
+import Annonces from './Annonces/Main_Annonces';
 import Annonce from "./Annonces/Details_Annonce";
 import Profil from "./Profil/Base_Profil";
 
