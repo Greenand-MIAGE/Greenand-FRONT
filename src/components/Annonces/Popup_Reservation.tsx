@@ -1,4 +1,4 @@
-import '../../styles/style_Accueil.css'
+import "../../styles/style_Accueil.css";
 
 function PopupReservation() {
   return (
@@ -8,9 +8,12 @@ function PopupReservation() {
           <button
             className="btn btn-outline-success btn"
             id="reserver_button"
-            type="button"
+            type="submit"
             data-toggle="modal"
-            data-target="#modal1"> Reserver
+            data-target="#modal1"
+          >
+            {" "}
+            Reserver
           </button>
         </div>
         <div
@@ -18,14 +21,12 @@ function PopupReservation() {
           id="modal1"
           role="dialog"
           aria-labelledby="exampleModalCenterTitle"
-          aria-hidden="true">
+          aria-hidden="true"
+        >
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">
               <div className="modal-header">
-                <h6>
-                  Votre réservation a bien été prise en compte! Merci!
-                </h6>
-
+                <h6>Votre réservation a bien été prise en compte! Merci!</h6>
               </div>
 
               <div className="modal-footer">
@@ -37,16 +38,12 @@ function PopupReservation() {
                   Fermer
                 </button>
               </div>
-
             </div>
           </div>
         </div>
-
-
       </div>
-
     </div>
-  )
+  );
 }
 
 export default PopupReservation;
