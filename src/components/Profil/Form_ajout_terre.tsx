@@ -39,7 +39,7 @@ function Form_ajout_terre() {
                     <label
                       htmlFor="adresse"
                       className="form-label">
-                      Adresse *
+                      Adresse*
                     </label>
                     <input
                       type="text"
@@ -61,7 +61,7 @@ function Form_ajout_terre() {
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="codepostal">Code postal *</label>
+                    <label htmlFor="codepostal">Code postal*</label>
                     <input
                       type="number"
                       className="form-control"

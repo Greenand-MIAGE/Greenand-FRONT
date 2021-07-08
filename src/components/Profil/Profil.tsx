@@ -58,7 +58,7 @@ function Profil() {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="profile-work">
-                            <h4 className="txt-confirmation"><span>Toto: confirmation effectuée</span></h4>
+                            
                             <p className="verif"><b><span>&#10003;</span></b> Identité</p>
                             <p className="verif"><b><span>&#10003;</span></b> Adresse e-mail</p>
                             <p className="verif"><b><span>&#10003;</span></b> Numéro de téléphone</p>
@@ -110,7 +110,7 @@ function Profil() {
                                         <label>Adresse postale: </label>
                                     </div>
                                     <div className="col-md-6">
-                                        <p>7 rue de Versaille, Saint Maure des Fossés</p>
+                                        <p>7 rue de Versailles, Saint Maure des Fossés</p>
                                     </div>
                                 </div>
                                 <div className="row">

@@ -8,7 +8,7 @@ function Header_Co() {
         <div className="header">
             <nav className="navbar navbar-expand-lg navbar-light fixed-top menu">
                 <div className="container-fluid ">
-                    <a href="!#" className="navbar-brand">
+                    <a href="/accueil" className="navbar-brand">
                         <img src={logo_text} height="50" alt="CoolBrand" className="logo_text" />
                     </a>
 
@@ -37,7 +37,7 @@ function Header_Co() {
                                 aria-expanded="false" data-display="static"><i className="far fa-user-circle"></i>
                             </button>
 
-                            <div className="dropdown-menu dropdown-menu-md-right" aria-labelledby="deroulant">
+                            <div className="dropdown-menu dropdown-menu-md-right labelMenu" aria-labelledby="deroulant">
                                 <Link className="linktest dropdown-item" to="/profil">Mon profil</Link>
                                 <button className="dropdown-item" type="button">Se déconnecter</button>
                             </div>
