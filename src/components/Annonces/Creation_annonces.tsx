@@ -79,7 +79,6 @@ function Creation_annonces() {
         });
       }
 
-      console.log(idLand);
       await createEvenement(idLand, {
         label,
         description,

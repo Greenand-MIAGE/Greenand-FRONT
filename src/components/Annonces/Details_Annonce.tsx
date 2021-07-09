@@ -27,7 +27,6 @@ function Details_Annonce() {
       setActivity(response.data);
     };
     fetchLands();
-    console.log(activity);
   }, []);
 
   const handleChange = (e, name) => {

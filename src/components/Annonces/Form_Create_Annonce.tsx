@@ -50,7 +50,6 @@ function CreateAnnonces() {
         break;
 
       case `description`:
-        console.log("ici");
         setDescription(evenement.description);
         if (evenement.description.length < 20) {
           setDescriptionErr(
@@ -80,7 +79,6 @@ function CreateAnnonces() {
         });
       }
 
-      console.log(idLand);
       await createEvenement(idLand, {
         label,
         description,
